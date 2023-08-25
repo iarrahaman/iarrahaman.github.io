@@ -15,7 +15,7 @@
             <div class="right">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="/">Education</a></li>
+                    <li><a href="#edumenu">Education</a></li>
                     <li><a href="/">Skills</a></li>
                     <li><a href="/">Projects</a></li>
                     <li><a href="/">Contact Me </a></li>
@@ -26,24 +26,27 @@
     <main>
         <section class="Firstsection">
             <div class="leftsection">
-                <div>Hi, My name is <span class="name">Rahaman</span>
+                <div>Hi, My name is <span class="yellow">Rahaman</span>
                 </div>
-                <div>and I am a Passionate</div>
-                <span id="element"></span>
+                <div>and I am a passionate</div>
+                <span class="yellow" id="element"></span>
             </div>
             <div class="Rightsection">
                 <img src="Programming concept.png" alt="">
         </section>
         <hr>
         <section class="Secondsection">
-            <span class="Edutext">Degrees i've got so far</span>
-            <h1>Education</h1>
+            <h1 id="edumenu">Education</h1>
+                <div class="Education">
+                    <h3 class="Secedu">Secondary Education</h3>
+                    <Button>View Result</Button>
+                </div>
         </section>
     </main>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-            strings: ['Web Developer.', 'Video Editor.', 'Web Designer.','Coder.'],
+            strings: ['Web Developer.', 'Video Editor.', 'Web Designer.','Coder.',],
             typeSpeed: 50,
         });
     </script>

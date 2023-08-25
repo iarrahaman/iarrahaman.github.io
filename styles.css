@@ -36,8 +36,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #e63946;
-    font-size: 1.13rem;
+    color: #ff0054;
+    font-size: 1.1rem;
 }
 
 .left {
@@ -56,14 +56,10 @@ nav ul li a:hover {
 .leftsection {
     font-size: 3rem;
     width: 31%;
-    margin-left: 120px;
+    margin-left: 200px;
 }
 
-.name {
-    color: #ffd60a;
-}
-
-#element {
+.yellow {
     color: #ffd60a;
 }
 
@@ -71,22 +67,25 @@ nav ul li a:hover {
     margin-top: 10px;
     margin-right: 20px;
     width: 1000.5px;
+    margin-right: 50px;
 }
 
 main hr {
-    margin: 30px 80px;
+    margin: 40px 80px;
 }
 
 .Secondsection {
     max-width: 85vw;
     margin: auto;
-    height: 80vh;
+    height: 90vh;
 }
 
-.Secondsection h1 {
-    font-size: 2rem;
+#edumenu {
+    font-size: 2.5rem;
+    color: #ffd60a;
+    color: #4cc9f0;
+    color: #ff0054;
 }
-
-.Edutext {
-    color: #ccd5ae;
+.Secedu{
+    color: #2ec4b6;
 }
