@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Poppins:wght@400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #001d3d;
+    color: #ffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background: #003566;
+    color: #ffc300;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 25px;
+    font-size: 1.1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+nav ul li a:hover {
+    color: #e63946;
+    font-size: 1.13rem;
+}
+
+.left {
+    font-family: 'Crimson Text', serif;
+    font-size: 2.5rem;
+    margin-right: 500px;
+}
+
+.Firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.leftsection {
+    font-size: 3rem;
+    width: 31%;
+    margin-left: 120px;
+}
+
+.name {
+    color: #ffd60a;
+}
+
+#element {
+    color: #ffd60a;
+}
+
+.Rightsection img {
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 1000.5px;
+}
+
+main hr {
+    margin: 30px 80px;
+}
+
+.Secondsection {
+    max-width: 85vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.Secondsection h1 {
+    font-size: 2rem;
+}
+
+.Edutext {
+    color: #ccd5ae;
+}
