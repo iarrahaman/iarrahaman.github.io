@@ -1,15 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Poppins:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&family=Poppins:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Merriweather:wght@400;700&family=Poppins:wght@400;500;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
+/* Website Background */
 body {
     background: #001d3d;
     color: #ffff;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
+/* THIS SECTION IS FOR FIRST PAGE */
+/* Website title */
+#Title {
+    font-family: "Crimson Text", serif;
+    font-size: 3rem;
+    margin-right: 500px;
+}
+
+
+/* Website navigation bar */
 nav {
     display: flex;
     justify-content: space-around;
@@ -40,52 +53,151 @@ nav ul li a:hover {
     font-size: 1.1rem;
 }
 
-.left {
-    font-family: 'Crimson Text', serif;
-    font-size: 2.5rem;
-    margin-right: 500px;
-}
-
-.Firstsection {
+.frontsection {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 30px 0;
+    /* margin: top right bottom left; */
+    margin: 30px 0px 0px 0px;
+
 }
 
-.leftsection {
+/* website hi text */
+.hitextsection {
     font-size: 3rem;
-    width: 31%;
-    margin-left: 200px;
+    width: 29%;
+    margin: auto;
 }
 
-.yellow {
+/* Yellow texts */
+.yellowtext {
     color: #ffd60a;
 }
 
-.Rightsection img {
+/* Developer Image on the Website */
+#devimg {
     margin-top: 10px;
-    margin-right: 20px;
+    margin-right: 30px;
     width: 1000.5px;
-    margin-right: 50px;
 }
 
+/* horizontal lines in main*/
 main hr {
     margin: 40px 80px;
 }
 
-.Secondsection {
+/* THIS SECTION IS FOR ABOUT */
+.aboutsection {
     max-width: 85vw;
+    height: 85vh;
     margin: auto;
-    height: 90vh;
+    width: 80%;
+
+}
+
+#aboutmenu {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 3rem;
+    color: #ffd60a;
+}
+
+.mydetails {
+    font-size: 1.5rem;
+    list-style: none;
+    text-align: left;
+}
+
+.mydetails li span:first-child{
+    font-weight: 1000;
+    width: 350px; 
+}
+
+/* THIS SECTION IS FOR EDUCATION */
+.edusection {
+    max-width: 85vw;
+    height: 85vh;
+    width: 80%;
+    margin: auto;
+
 }
 
 #edumenu {
-    font-size: 2.5rem;
-    color: #ffd60a;
+    margin-bottom: 50px;
+    font-size: 3rem;
     color: #4cc9f0;
     color: #ff0054;
+    color: #ffd60a;
+
 }
-.Secedu{
-    color: #2ec4b6;
+
+.edutable {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.edutable p {
+    font-size: 1.7rem;
+}
+
+.edutable span {
+    font-size: 1.2rem;
+}
+
+.btech {
+    /* margin: top right bottom left; */
+    margin: 10px 0px 50px 0px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    padding: 7px 7px 7px 7px;
+    background-color: #4cc9f0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    align-items: center;
+    position: relative;
+    left: 1400px;
+    bottom: 34px;
+}
+
+.btn img {
+    width: 25px;
+    margin-left: 10px;
+}
+
+.btn:hover {
+    font-size: 19px;
+    background: #0db5e9;
+
+}
+
+/* THIS SECTION IS FOR PROJECTS */
+.projectsection {
+    max-width: 85vw;
+    height: 45vh;
+    margin: auto;
+    width: 80%;
+}
+
+#pjtmenu {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 3rem;
+    color: #ffd60a;
+}
+
+.pjt1 h1 {
+    font-size: 2rem;
+
+}
+
+.pjt1 p {
+    color: #adb5bd;
+    font-size: 1.1rem;
 }

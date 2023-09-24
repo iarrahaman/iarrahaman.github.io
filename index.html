@@ -1,9 +1,11 @@
+<!-- Staring with the name of Allah -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Rahaman's Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -11,43 +13,106 @@
 <body>
     <header>
         <nav>
-            <div class="left">Rahaman's Portfolio</div>
-            <div class="right">
+            <div id="Title">Rahaman's Portfolio</div>
+            <div>
                 <ul>
                     <li><a href="index.html">Home</a></li>
+                    <li><a href="#aboutmenu">About</a></li>
                     <li><a href="#edumenu">Education</a></li>
-                    <li><a href="/">Skills</a></li>
-                    <li><a href="/">Projects</a></li>
-                    <li><a href="/">Contact Me </a></li>
+                    <li><a href="#pjtmenu">Projects</a></li>
+                    <li><a href="/">Contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <section class="Firstsection">
-            <div class="leftsection">
-                <div>Hi, My name is <span class="yellow">Rahaman</span>
+        <section class="frontsection">
+            <div class="hitextsection">
+                <div>Hi, My name is <span class="yellowtext">Rahaman</span>
                 </div>
                 <div>and I am a passionate</div>
-                <span class="yellow" id="element"></span>
+                <!-- Element to contain animated typing -->
+                <span class="yellowtext" id="element"></span>
             </div>
-            <div class="Rightsection">
-                <img src="Programming concept.png" alt="">
+            <div>
+                <img id="devimg" src="Programming concept.png" alt="">
+            </div>
         </section>
         <hr>
-        <section class="Secondsection">
-            <h1 id="edumenu">Education</h1>
-                <div class="Education">
-                    <h3 class="Secedu">Secondary Education</h3>
-                    <Button>View Result</Button>
-                </div>
+        <section class="aboutsection">
+            <h1 id="aboutmenu">About Me</h1>
+            <div class="mypic">
+            </div>
+            <div class="">
+                <ul class="mydetails">
+                    <li><span>Name : </span>
+                        <span>SK Allarakha Rahaman</span>
+                    </li>
+                    <li><span>Address : </span>
+                        <span> Jagannathpur, Fuleswar, Uluberia, Howrah</span>
+                    </li>
+                    <li><span>Pin code :</span>
+                        <span>745713</span>
+                    </li>
+                    <li><span>Email : </span>
+                        <span>contactrahaman@gmail.com</span>
+                    </li>
+                    <li><span>Phone :</span>
+                        <span>+91-22374-56789</span>
+                    </li>
+                </ul>
+            </div>
         </section>
+        <hr>
+        <section class="edusection">
+            <h1 id="edumenu" class="yellow">Education</h1>
+            <div class="edutable">
+                <h1>Secondary Education (2012-2019)</h1>
+                <span>West Bengal Board of Secondary Education</span>
+                <Button class="btn">Result<img src="view.png" alt="icon"></Button>
+            </div>
+            <div class="edutable">
+                <h1>Higher Secondary Education (2019 - 2021)</h1>
+                <span>West Bengal Council of Higher Secondary Education</span>
+                <Button class="btn">Result<img src="view.png" alt="icon"></Button>
+            </div>
+            <div class="edutable">
+                <div class="btech">
+                    <h1>Bachelor of Technology in Computer Science and Engineering (2021-2025)</h1>
+                    <span>Maulana Abul Kalam Azad University of Technology</span>
+                </div>
+                <p>Semester 1</p>
+                <Button class="btn">Result<img src="view.png" alt="icon"></Button>
+                <p>Semester 2</p>
+                <Button class="btn">Result<img src="view.png" alt="icon"></Button>
+                <p>Semester 3</p>
+                <Button class="btn">Result<img src="view.png" alt="icon"></Button>
+                <p>Semester 4</p>
+                <Button class="btn">Result<img src="view.png" alt="icon"></Button>
+            </div>
+        </section>
+        <hr>
+        <section class="projectsection">
+            <h1 id="pjtmenu">Projects</h1>
+            <div class="pjt1">
+                <h1>1. Portfolio Website</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente commodi blanditiis necessitatibus
+                    ex voluptatem assumenda quibusdam sunt corrupti veniam asperiores. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Deleniti iusto similique ea tempora aperiam iure eligendi omnis nisi
+                    amet minima!</p>
+                <p></p>
+            </div>
+        </section>
+        <hr>
+        <section></section>
     </main>
+    <!-- Load library from the CDN -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
     <script>
         var typed = new Typed('#element', {
-            strings: ['Web Developer.', 'Video Editor.', 'Web Designer.','Coder.',],
-            typeSpeed: 50,
+            strings: ['Web Developer.', 'Video Editor.', 'Web Designer.', 'Coder.',],
+            typeSpeed: 60,
         });
     </script>
 </body>
