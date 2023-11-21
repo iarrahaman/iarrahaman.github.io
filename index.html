@@ -19,8 +19,9 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#aboutmenu">About</a></li>
                     <li><a href="#edumenu">Education</a></li>
+                    <li><a href="#skillsmenu">Skills</a></li>
                     <li><a href="#pjtmenu">Projects</a></li>
-                    <li><a href="/">Contact</a></li>
+                    <li><a href="#contactmenu">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -66,45 +67,63 @@
         <hr>
         <section class="edusection">
             <h1 id="edumenu" class="yellow">Education</h1>
-            <div class="edutable">
+            <div class="edutable ">
                 <h1>Secondary Education (2012-2019)</h1>
-                <span>West Bengal Board of Secondary Education</span>
-                <Button class="btn">Result<img src="view.png" alt="icon"></Button>
+                <p>West Bengal Board of Secondary Education</p>
+                <a class="btn" href=""><img src="icon.png" alt="icon"></a>
             </div>
             <div class="edutable">
                 <h1>Higher Secondary Education (2019 - 2021)</h1>
-                <span>West Bengal Council of Higher Secondary Education</span>
-                <Button class="btn">Result<img src="view.png" alt="icon"></Button>
+                <p>West Bengal Council of Higher Secondary Education</p>
+                <a class="btn" href=""><img src="icon.png" alt="icon"></a>
             </div>
-            <div class="edutable">
-                <div class="btech">
-                    <h1>Bachelor of Technology in Computer Science and Engineering (2021-2025)</h1>
-                    <span>Maulana Abul Kalam Azad University of Technology</span>
-                </div>
+            <div class="btech edutable">
+                <h1>Bachelor of Technology in Computer Science and Engineering (2021-2025)</h1>
+                <p>Maulana Abul Kalam Azad University of Technology</p>
+            </div>
+            <div class="sems">
                 <p>Semester 1</p>
-                <Button class="btn">Result<img src="view.png" alt="icon"></Button>
+                <a class="btn" href=""><img src="icon.png" alt="icon"></a>
                 <p>Semester 2</p>
-                <Button class="btn">Result<img src="view.png" alt="icon"></Button>
+                <a class="btn" href=""><img src="icon.png" alt="icon"></a>
                 <p>Semester 3</p>
-                <Button class="btn">Result<img src="view.png" alt="icon"></Button>
+                <a class="btn" href=""><img src="icon.png" alt="icon"></a>
                 <p>Semester 4</p>
-                <Button class="btn">Result<img src="view.png" alt="icon"></Button>
+                <a class="btn" href=""><img src="icon.png" alt="icon"></a>
             </div>
+        </section>
+        <hr>
+        <section class="skillsection">
+            <h1 id="skillsmenu">Skills</h1>
         </section>
         <hr>
         <section class="projectsection">
             <h1 id="pjtmenu">Projects</h1>
-            <div class="pjt1">
-                <h1>1. Portfolio Website</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente commodi blanditiis necessitatibus
+            <div class="pjt">
+                <h1 class="pjtheader">1. Portfolio Website</h1>
+                <p class="pjtdisc">
+                    This is My First Projrct as i start learning Web Development. I tried to build my Portfolio website.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente commodi blanditiis necessitatibus
                     ex voluptatem assumenda quibusdam sunt corrupti veniam asperiores. Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit. Deleniti iusto similique ea tempora aperiam iure eligendi omnis nisi
-                    amet minima!</p>
-                <p></p>
+                    consectetur adipisicing elit.</p>
+
+            </div>
+            <div class="pjt">
+                <h1 class="pjtheader">2. Inter Process Communication Using Shared Memory</h1>
+                <p class="pjtdisc">My Second test project about representation of the Inter Process Communication. In
+                    this project i
+                    created two processes and illustrate the Communication using shared memory in c language. You Can
+                    Visit my GitHub to see the Project.</p>
+                <a href="https://github.com/iarrahaman/Inter-Process-Communication-Using-Shared-memory/tree/main"
+                    target="_blank"><button class="gitbtn"><img src="github2.png" alt="icon"></button></a>
             </div>
         </section>
         <hr>
-        <section></section>
+        <section class="contactsection">
+            <h1 id="contactmenu">Contact Me</h1>
+            <div class="msgme"></div>
+            <div class="sociallinks"></div>
+        </section>
     </main>
     <!-- Load library from the CDN -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>

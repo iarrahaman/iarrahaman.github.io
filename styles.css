@@ -8,8 +8,8 @@
 
 /* Website Background */
 body {
-    background: #001d3d;
-    color: #ffff;
+    background: #0A043C;
+    color: #ffffff;
     font-family: "Poppins", sans-serif;
 }
 
@@ -17,7 +17,7 @@ body {
 /* Website title */
 #Title {
     font-family: "Crimson Text", serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-right: 500px;
 }
 
@@ -28,7 +28,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 90px;
-    background: #003566;
+    background: #0F044C;
     color: #ffc300;
 }
 
@@ -45,7 +45,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #ffff;
+    color: #ffffff;
 }
 
 nav ul li a:hover {
@@ -57,16 +57,14 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* margin: top right bottom left; */
-    margin: 30px 0px 0px 0px;
-
+    margin-top: 30px;
 }
 
 /* website hi text */
 .hitextsection {
     font-size: 3rem;
     width: 29%;
-    margin: auto;
+    margin-left: 200px;
 }
 
 /* Yellow texts */
@@ -87,6 +85,7 @@ main hr {
 }
 
 /* THIS SECTION IS FOR ABOUT */
+
 .aboutsection {
     max-width: 85vw;
     height: 85vh;
@@ -105,79 +104,79 @@ main hr {
 .mydetails {
     font-size: 1.5rem;
     list-style: none;
-    text-align: left;
+    text-align: start;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 45%;
 }
 
-.mydetails li span:first-child{
-    font-weight: 1000;
-    width: 350px; 
+.mydetails li span:first-child {
+    font-weight: 900;
+    color: #C4D7B2;
+    margin-right: 30px;
 }
 
 /* THIS SECTION IS FOR EDUCATION */
+
 .edusection {
     max-width: 85vw;
-    height: 85vh;
+    height: 95vh;
     width: 80%;
     margin: auto;
 
 }
 
 #edumenu {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     font-size: 3rem;
-    color: #4cc9f0;
-    color: #ff0054;
     color: #ffd60a;
 
 }
 
-.edutable {
-    align-items: center;
-    justify-content: space-around;
+.edutable h1 {
+    font-size: 1.7rem;
+
 }
 
 .edutable p {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
 }
 
-.edutable span {
-    font-size: 1.2rem;
+.sems {
+    font-size: 1.7rem;
 }
 
 .btech {
     /* margin: top right bottom left; */
-    margin: 10px 0px 50px 0px;
+    margin: 20px 0px 50px 0px;
 }
 
-.btn {
-    display: flex;
-    justify-content: space-around;
-    color: black;
-    font-family: 'Merriweather', serif;
-    font-size: 18px;
-    padding: 7px 7px 7px 7px;
-    background-color: #4cc9f0;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    align-items: center;
-    position: relative;
-    left: 1400px;
-    bottom: 34px;
-}
 
 .btn img {
-    width: 25px;
-    margin-left: 10px;
+    width: 47px;
+    position: relative;
+    left: 1400px;
+    bottom: 40px;
 }
 
-.btn:hover {
-    font-size: 19px;
-    background: #0db5e9;
+/* THIS SECTION IS FOR SKILLS */
 
+.skillsection {
+    max-width: 85vw;
+    height: 45vh;
+    margin: auto;
+    width: 80%;
+}
+
+#skillsmenu {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 3rem;
+    color: #ffd60a;
 }
 
 /* THIS SECTION IS FOR PROJECTS */
+
 .projectsection {
     max-width: 85vw;
     height: 45vh;
@@ -192,12 +191,56 @@ main hr {
     color: #ffd60a;
 }
 
-.pjt1 h1 {
+.pjtheader {
     font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.pjtdisc {
+    color: #adb5bd;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.pjt {
+    width: 80%;
+}
+
+.gitbtn {
+    cursor: pointer;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 100%;
+    position: relative;
+    left: 1400px;
+    bottom: 120px;
+}
+
+.gitbtn :hover {
+    border-radius: 100%;
+    background-color: #ffd60a;
+}
+
+.gitbtn img {
+    margin: 0px 0px 0px 0px;
+    align-items: center;
+    width: 47px;
 
 }
 
-.pjt1 p {
-    color: #adb5bd;
-    font-size: 1.1rem;
+/* THIS SECTION IS FOR CONTACTS */
+.contactsection {
+    max-width: 85vw;
+    height: 60vh;
+    margin: auto;
+    width: 80%;
+}
+
+#contactmenu {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 3rem;
+    color: #ffd60a;
 }
